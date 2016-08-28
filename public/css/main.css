@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,700);
+
+html{ width:100%; height: 100%;}
+body { min-height:100%; position: relative; font-family: 'Work Sans', sans-serif; font-weight: 300; padding-bottom: 30px; padding-top: 75px; color: #000000;}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Work Sans', sans-serif; font-weight: 400; text-transform: uppercase; padding: 20px 0px 0px 0px;}
+h1 { font-size: 150%; line-height: 1.3;}
+h2 { font-size: 125%; line-height: 1.4;}
+h3 { font-size: 100%; line-height: 1.5;}
+h4 { font-size: 75%; line-height: 1.6;}
+h5 { font-size: 50%; line-height: 1.7;}
+h6 { font-size: 25%; }
+
+ul {padding-left: 24px !important;}
+
+.container { max-width: 730px;}
+
+.btn { border-radius: 0; font-family: inherit; font-size: 80%; text-transform: uppercase; font-weight: 400; letter-spacing: 2px;}
+.btn:hover {background: #000000; color: #FFFFFF;}
+.btn-lg { font-size: 80%; padding: 8px 24px;}
+.btn-sm { font-size: 70%; padding: 6px 22px;}
+.btn-xs { font-size: 60%; padding: 4px 20px;}
+
+.btn-default {border: #666666 solid 1px !important;
+    -webkit-transition: background 900ms ease-in-out;
+    -moz-transition: background 900ms ease-in-out;
+    -ms-transition: background 900ms ease-in-out;
+    -o-transition: background 900ms ease-in-out;
+    transition: background 900ms ease-in-out;}
+
+/* Sectors */
+.sector-full { position: absolute; bottom: 0; top: 0; left: 0; right: 0; margin-top: 75px; margin-bottom: 25px;}
+.sector-white { padding: 50px 0px;}
+
+/* Navigation */
+/*.scrolled { padding-top: 0 !important;}*/
+.navbar { background: rgba(255,255,255, 0.9); border: 0; padding-top: 25px; color: #000000;}
+.navbar-brand, .navbar-nav a { color: #000000!important; text-transform: uppercase;}
+.navbar-nav li { padding: 0px 30px 0px 30px;}
+.navbar-nav li a { position: relative; letter-spacing: 2px; text-indent: 2px; font-size: 11px; padding: 15px 0px 15px 0px;}
+.navbar-nav li a:hover { background: none;}
+.navbar-nav li a:after { display: block; position: absolute; left: 0; bottom: 15px; width: 0; height: 1px; background-color: #000000; content: ""; transition: width 0.2s;}
+.navbar-nav li a:hover:after {width: 100%;}
+.navbar-brand { font-size: 24px; letter-spacing: 4px; font-weight: 700;}
+.navbar-brand img { width: 110px;}
+.navbar-toggle { border-radius: 0; border: 0;}
+.navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:visited, .navbar-toggle:focus {background: none !important;}
+.navbar-toggle > span { background: #000000 !important;}
+.navbar.nav-mobile-bg { background: rgba(0,0,0, 0.5);}
+.navbar-collapse { border: none;}
+.open1{ transform: rotate(180deg); transition: transform 300ms linear;}
+.open{ transform: rotate(0deg); transition: transform 300ms linear;}
+
+/* Front page */
+.header-content { height: 100%; position: relative;}
+.header-intro {position: absolute; width: 100%; top: 50%; transform: translateY(-70%); font-weight: 100;}
+.header-img { width: 190px; margin: auto;}
+.header-intro h1 { text-align:center; font-weight: 100; letter-spacing: 4px; font-size: 200%;}
+.header-intro h3 { text-transform: uppercase; font-weight: 100; letter-spacing: 6px; font-size: 100%; text-align: center;}
+.header-intro p { font-weight: 100; letter-spacing: 1px; text-align: center; font-size: 80%;}
+
+/* Footer */
+.footer {position: absolute; bottom: 0; width: 100%; overflow: auto; padding: 5px 0px; font-size: 60%;}
+.credits { line-height: 200%;}
+.social { font-size: 150% !important; letter-spacing: 7px; color: #000000;}
+.social i { color: #000000; font-size: 125%;}
+
+
+
+
+@media(max-width:767px){
+    body {padding-top: 55px;}
+
+    .navbar-brand img { width: 110px;}
+    .navbar { border: none; background: rgba(255,255,255, 0.9); padding: 0;}
+
+    .btn { border-radius: 0; font-family: inherit; font-size: 80%; text-transform: uppercase; font-weight: 400; letter-spacing: 2px;}
+    .btn-lg { font-size: 80%; padding: 8px 24px;}
+    .btn-sm { font-size: 70%; padding: 6px 22px;}
+    .btn-xs { font-size: 60%; padding: 4px 20px;}
+
+    .navbar-nav li { padding: 0;}
+    .navbar-nav li a { position: relative; letter-spacing: 2px; font-size: 12px; padding: 15px 0px 15px 10px;}
+    .navbar-nav li a:after { display: block; position: absolute; left: 0; bottom: 15px; width: 0; height: 1px; background-color: #ffffff; content: ""; transition: width 0.2s;}
+    .navbar-nav li a:hover, .navbar-nav li a:active,  .navbar-nav li a:focus { background: rgba(0,0,0,0.4) !important;}
+
+    .header-img { width: 150px; margin: auto;}
+    .header-intro h1 { font-weight: 100; letter-spacing: 4px; font-size: 190%;}
+    .header-intro h3 { text-transform: uppercase; font-weight: 100; font-size: 80%; letter-spacing: 10px;}
+    .header-intro p { font-weight: 100; letter-spacing: 1px;  font-size: 75%;}
+
+    .navbar-nav li a:after { display: none;}
+    .navbar-collapse { }
+
+
+    /* Footer */
+    .footer {position: absolute; bottom: 0; width: 100%; overflow: auto; padding: 5px 0px; font-size: 60%;}
+    .credits { line-height: 200%;}
+    .social { font-size: 150% !important; letter-spacing: 7px; color: #000000;}
+    .social i { color: #000000; font-size: 125%;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .desktop { display: none;}
+    .mobile { display: block;}
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+
+}
