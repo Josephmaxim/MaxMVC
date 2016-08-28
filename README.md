@@ -12,8 +12,11 @@ MaxMVC is a  lightweight/simple MVC framework build in php..
 * PHP
 * HTML5
 * CSS3
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [jQuery] - JavaScript Library
+* JS
+
+### Libraries
+* Twitter Bootstrap - great UI boilerplate for modern web apps
+* jQuery - JavaScript Library
 
 ### Installation
 
